@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+void DisplayI(int no)
+{
+	while(no != 0)
+	{
+		printf("%d\t",no%10);
+		no = no/10;
+	}
+}
+
+void DisplayR(int no)
+{
+	if(no != 0)
+	{
+		DisplayR(no);
+		no = no/10;
+		printf("%d\t",no%10);
+	}
+	
+}
+
+int main()
+{
+	DisplayI(123);
+	DisplayR(123);
+	
+	return 0;
+}

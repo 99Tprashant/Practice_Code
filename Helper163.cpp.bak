@@ -1,0 +1,30 @@
+#include"Header163.h"
+
+DoublyCLL::DoublyCLL()
+{}
+
+void DoublyCLL::InsertFirst(int iNo)
+{}
+
+void DoublyCLL::InsertLast(int iNo)
+{}
+
+void DoublyCLL::InsertAtPos(int iNo,int iPos)
+{}
+	
+void DoublyCLL::DeleteFirst()
+{}
+
+void DoublyCLL::DeteteLast()
+{}
+
+void DoublyCLL::DeleteAtPos(int iPos)
+{}
+		
+int DoublyCLL::count()
+{
+	return CountNode;
+}
+
+void DoublyCLL::Display()
+{}
